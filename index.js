@@ -25,8 +25,8 @@ wss.on('connection', (ws) => {
     broadcastData(jsonData);
     setInterval(() => {
         broadcastData(jsonData);
-    }, 10000);
-  }, 1000);
+    }, 3000);
+  }, 3000);
 });
 
 console.log('WebSocket server started on ws://localhost:8080');
