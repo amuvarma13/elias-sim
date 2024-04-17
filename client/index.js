@@ -1,6 +1,6 @@
 import WebSocket from 'ws';
 
-const ws = new WebSocket('ws://0.0.0.0:8080');
+const ws = new WebSocket('ws://34.41.171.142:8080');
 
 ws.on('open', () => {
     console.log('Connected to WebSocket server');
